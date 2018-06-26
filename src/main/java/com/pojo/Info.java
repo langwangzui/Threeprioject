@@ -1,6 +1,19 @@
 package com.pojo;
 
+
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+/*import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+//使用JPA注解配置映射关系
+@Entity //告诉JPA这是一个实体类（和数据表映射的类）*/
 public class Info {
+
+/*    @Id  //这是一个主键
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//自增主键*/
     private Integer id;
 
     private String name;

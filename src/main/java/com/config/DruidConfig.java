@@ -30,16 +30,16 @@ public class DruidConfig {
     //1、配置一个管理后台的Servlet
     @Bean
     public ServletRegistrationBean statViewServlet(){
-        ServletRegistrationBean bean = new ServletRegistrationBean(new StatViewServlet(),"/druid/*");
+        ServletRegistrationBean bean = new ServletRegistrationBean(new StatViewServlet(), "/druid/*");
         Map<String,String> initParams = new HashMap<>();
 
-        initParams.put("loginUsername","root");
-        initParams.put("loginPassword","root");
+        initParams.put("loginUsername","admin");
+        initParams.put("loginPassword","123456");
         initParams.put("allow","");//默认就是允许所有访问
         initParams.put("deny","127.0.0.1");
 
         bean.setInitParameters(initParams);
-        return  bean;
+        return bean;
     }
 
     //2.配置一个web监控的filter

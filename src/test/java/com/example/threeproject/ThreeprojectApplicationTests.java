@@ -1,3 +1,4 @@
+
 package com.example.threeproject;
 
 import org.junit.Test;
@@ -14,16 +15,5 @@ import java.sql.SQLException;
 @SpringBootTest
 public class ThreeprojectApplicationTests {
 
-	@Autowired
-	DataSource dataSource;
-
-	@Test
-	public void contextLoads() throws SQLException {
-		/*System.out.println(dataSource.getClass());
-
-		Connection connection = dataSource.getConnection();
-		System.out.println(connection);
-		connection.close();*/
-	}
-
 }
+
