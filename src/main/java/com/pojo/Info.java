@@ -1,7 +1,6 @@
 package com.pojo;
 
 public class Info {
-
     private Integer id;
 
     private String name;

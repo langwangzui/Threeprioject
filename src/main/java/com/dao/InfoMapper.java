@@ -2,17 +2,10 @@ package com.dao;
 
 import com.pojo.Info;
 
+
+//@Mapper或者@MapperScan将接口扫描装配到容器中
 public interface InfoMapper {
 
-    int deleteByPrimaryKey(Integer id);
+    Info getInfoById(Integer id);
 
-    int insert(Info record);
-
-    int insertSelective(Info record);
-
-    Info selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(Info record);
-
-    int updateByPrimaryKey(Info record);
 }

@@ -67,6 +67,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!--&lt;!&ndash;测试包&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>junit</groupId>-->
+			<!--<artifactId>junit</artifactId>-->
+			<!--<version>4.7</version>-->
+			<!--<scope>test</scope>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
